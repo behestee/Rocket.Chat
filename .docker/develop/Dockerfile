@@ -16,7 +16,7 @@ RUN set -x \
  && npm install \
  && npm cache clear
 
-USER behestee
+USER rocketchat
 
 WORKDIR /app/bundle
 
